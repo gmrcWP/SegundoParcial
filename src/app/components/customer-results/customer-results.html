@@ -1,26 +1,51 @@
-<section id="stats" class="py-20 lg:pt-32">
+<section id="stats" class="py-20 lg:pt-32" aria-labelledby="stats-heading">
   <div class="container mx-auto text-center">
-    <p class="uppercase tracking-wider text-gray-600">Our customers get results
-
+    <h2 id="stats-heading" class="sr-only">Customer Results Statistics</h2>
+    <p class="uppercase tracking-wider text-gray-600" aria-describedby="stats-heading">
+      Our customers get results
     </p>
-    <div class="flex flex-col sm:flex-row mt-8 lg:px-24">
-      <div class="w-full sm:w-1/3">
-        <p class="text-4xl lg:text-6xl font-semibold text-teal-500">+100%
-        </p>
-        <p class="font-semibold mb-6">Stats Information
-        </p>
+
+    <div class="flex flex-col sm:flex-row mt-8 lg:px-24" role="list" aria-label="Performance statistics">
+      <div class="w-full sm:w-1/3" role="listitem">
+        <div
+          class="focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 rounded-lg p-4 transition-all"
+          tabindex="0" role="region" aria-labelledby="stat-1-value stat-1-label">
+          <p id="stat-1-value" class="text-4xl lg:text-6xl font-semibold text-teal-500"
+            aria-label="One hundred percent increase">
+            +100%
+          </p>
+          <p id="stat-1-label" class="font-semibold mb-6 text-gray-800">
+            Stats Information
+          </p>
+        </div>
       </div>
-      <div class="w-full sm:w-1/3">
-        <p class="text-4xl lg:text-6xl font-semibold text-teal-500">+100%
-        </p>
-        <p class="font-semibold mb-6">Stats Information
-        </p>
+
+      <div class="w-full sm:w-1/3" role="listitem">
+        <div
+          class="focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 rounded-lg p-4 transition-all"
+          tabindex="0" role="region" aria-labelledby="stat-2-value stat-2-label">
+          <p id="stat-2-value" class="text-4xl lg:text-6xl font-semibold text-teal-500"
+            aria-label="One hundred percent increase">
+            +100%
+          </p>
+          <p id="stat-2-label" class="font-semibold mb-6 text-gray-800">
+            Stats Information
+          </p>
+        </div>
       </div>
-      <div class="w-full sm:w-1/3">
-        <p class="text-4xl lg:text-6xl font-semibold text-teal-500">+100%
-        </p>
-        <p class="font-semibold mb-6">Stats Information
-        </p>
+
+      <div class="w-full sm:w-1/3" role="listitem">
+        <div
+          class="focus:outline-none focus:ring-4 focus:ring-blue-300 focus:ring-offset-2 rounded-lg p-4 transition-all"
+          tabindex="0" role="region" aria-labelledby="stat-3-value stat-3-label">
+          <p id="stat-3-value" class="text-4xl lg:text-6xl font-semibold text-teal-500"
+            aria-label="One hundred percent increase">
+            +100%
+          </p>
+          <p id="stat-3-label" class="font-semibold mb-6 text-gray-800">
+            Stats Information
+          </p>
+        </div>
       </div>
     </div>
   </div>
