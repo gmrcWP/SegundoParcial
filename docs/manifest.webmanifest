@@ -1,6 +1,7 @@
 {
   "name": "Segundo Parcial",
   "short_name": "SP",
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
