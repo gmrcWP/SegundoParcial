@@ -2,58 +2,17 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
 
-## Development server
+## Framework elegido
+TAILWINDCSS
 
-To start a local development server, run:
+## Template
+Fuente: https://tailwindflex.com/@limaa-m/simple-landing-page
+Licencia:
+Copyright (c) 2023 - Present, Designed & Developed by [Themefisher](https://tailwindflex.com/)
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Prueba Offline (PWA)
+1. Se configuró `ngsw-config.json` con precaching de `index.html`, `*.css`, `*.js` y recursos estáticos clave.
+2. Se compiló la aplicación en modo producción:
+3. Se sirvió con un servidor local: npx http-server -p 8080 -c-1 dist/segundoParcial/browser. En Devtools -> Application -> Service Workers:
+- Se activo el modo Offline
+- Home se cargo correctamente sin conexion
